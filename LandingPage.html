@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lattitude</title>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .bs-example{
+    margin: 20px;
+    }
+</style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            <a class="navbar-brand" href="C:\Datascience\UCBER201802DATA3-Class-Repository-DATA\Homework-WW12\Assignment\LandingPage.html">Lattitude</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="C:\Datascience\UCBER201802DATA3-Class-Repository-DATA\Homework-WW12\Assignment\Comparison.html">Comparsion</a></li>
+                    <li><a href="C:\Datascience\UCBER201802DATA3-Class-Repository-DATA\Homework-WW12\Assignment\Data.html">Date</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="temperaturemap.png">Max Temperature</a></li>
+                            <li><a href="humiditymap.png">Humidity</a></li>
+                            <li><a href="cloudymap.png">Cloudiness</a></li>
+                            <li><a href="windmap.png">Wind Speed</a></li>
+                            <li role="separator" class="divider"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <!--Normally these medium columns go full wide on small screen sizes-->
+        <div class="row">
+            <h2> Summary:  Latitude vs. X </h2>
+            <div class="jumbotron">
+            <img id="tempmap1" src="temperaturemap.png" alt="Temp Map">
+            <div class="box grey">The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a datset on over 500 cities.</div>
+            </div>
+            <div class="col-sm-6-col-md-3">    
+            <h2> Visualizations </h2>
+            <div class="box grey">These are the various graphs for the Latitude vs. Cloudy, Humdity, Wind, and Temp</div>
+            <img id="cloudmap" src="cloudymap.png" alt="Cloudy Map">
+            <img id="hummap" src="humiditymap.png" alt="Humidity Map">
+            <img id="windmap" src="windmap.png" alt="Wind Map">
+            <img id="tempmap" src="temperaturemap.png" alt="Temp Map">
+                </div> 
+        </div>
+    </div>
+</body>

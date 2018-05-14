@@ -1,0 +1,46 @@
+.container {
+  align-content: left;
+}
+
+
+
+
+h2 {
+    font-size:20px;
+    font-weight: bold;
+    text-align: Left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: teal
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  min-height: 25px; 
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px
+  font-weight: bold;
+  color: teal;
+}
+
+.grey {
+  background: rgb(223, 216, 216);
+}
+
+img {
+  max-width: 50%;  
+}
+
+#windmap {
+  max-width: 23%;
+}
+#hummap {
+  max-width: 23%;
+}
+#cloudmap {
+  max-width: 23%;
+}
+#tempmap {
+  max-width: 23%;
+}
